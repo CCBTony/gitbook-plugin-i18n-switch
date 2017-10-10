@@ -1,31 +1,22 @@
 {
-  "name": "gitbook-plugin-page-footer-ex",
-  "version": "0.1.1",
-  "description": "定制每篇文章的页脚，可以添加版权和显示文件修改时间",
+  "name": "gitbook-plugin-i18n-switch",
+  "version": "0.1",
+  "description": "国际化页面切换按钮",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zq99299/gitbook-plugin-page-footer-ex.git"
+    "url": "git+ttps://github.com/CCBTony/gitbook-plugin-i18n-switch.git"
   },
   "keywords": [
     "gitbook",
     "plugin",
-    "page-footer-ex",
-    "footer",
-    "ex"
+    "i18n-switch"
   ],
-  "author": "zhuqiang",
+  "author": "TonyGuo",
   "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/zq99299/gitbook-plugin-page-footer-ex/issues"
-  },
-  "homepage": "https://github.com/zq99299/gitbook-plugin-page-footer-ex#readme",
-  "dependencies": {
-    "moment": "^2.10.6"
-  },
   "engines": {
     "gitbook": ">=3.0.0"
   },
