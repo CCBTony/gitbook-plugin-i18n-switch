@@ -17,6 +17,9 @@
   ],
   "author": "TonyGuo",
   "license": "GPL-3.0",
+  "dependencies": {
+    "moment": "^2.10.6"
+  },
   "engines": {
     "gitbook": ">=3.0.0"
   },
