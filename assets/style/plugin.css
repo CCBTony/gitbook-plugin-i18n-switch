@@ -4,3 +4,8 @@ a.switch-i18n {
     right: 0;
     top: 0;
 }
+
+.page-wrapper .page-inner {
+    max-width: none;
+    margin: 0 100px;
+}
