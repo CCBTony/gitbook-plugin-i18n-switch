@@ -21,7 +21,7 @@ module.exports = function(book, page) {
   const exclueds = ['<', '>']
   const matchResult = content.match(/\&\#x(\w+)\;/g)
   if (matchResult) {
-    for(let i of ) {
+    for(let i of matchResult) {
       let char = String.fromCharCode(eval('0' + i.substr(2, i.length - 3)))
 
       if (!exclueds.includes(char))
