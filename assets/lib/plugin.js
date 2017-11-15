@@ -19,13 +19,16 @@ module.exports = function(book, page) {
   // 将实体字符全部转义为中文
   let content = page.content
   const exclueds = ['<', '>']
-  for(let i of content.match(/\&\#x(\w+)\;/g)) {
-    let char = String.fromCharCode(eval('0' + i.substr(2, i.length - 3)))
+  const matchResult = content.match(/\&\#x(\w+)\;/g)
+  if (matchResult) {
+    for(let i of ) {
+      let char = String.fromCharCode(eval('0' + i.substr(2, i.length - 3)))
 
-    if (!exclueds.includes(char))
-      content = content.replace(new RegExp(i, 'g'), char)
+      if (!exclueds.includes(char))
+        content = content.replace(new RegExp(i, 'g'), char)
+    }
+    page.content = content
   }
-  page.content = content
 
   return page;
 }
