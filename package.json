@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-i18n-switch",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "国际化页面切换按钮",
   "main": "index.js",
   "scripts": {
