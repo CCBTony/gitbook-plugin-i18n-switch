@@ -15,20 +15,5 @@ module.exports = function(book, page) {
     
   `
   page.content = block + page.content;
-
-  // 将实体字符全部转义为中文
-  let content = page.content
-  const exclueds = ['<', '>']
-  const matchResult = content.match(/\&\#x(\w+)\;/g)
-  if (matchResult) {
-    for(let i of matchResult) {
-      let char = String.fromCharCode(eval('0' + i.substr(2, i.length - 3)))
-
-      if (!exclueds.includes(char))
-        content = content.replace(new RegExp(i, 'g'), char)
-    }
-    page.content = content
-  }
-
   return page;
 }
