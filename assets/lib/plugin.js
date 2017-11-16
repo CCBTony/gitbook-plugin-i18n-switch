@@ -375,6 +375,9 @@ const navJs = `
     window.addEventListener('load', function () {
       $.get('/ecTool/getUser')
         .done(function (ret) {
+          try {
+            ret = JSON.parse(ret)
+          } catch (err) {}
           if (ret.code) $('.log-out').show()
           else $('.log-in').show()
         })
