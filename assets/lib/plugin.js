@@ -52,7 +52,7 @@ const navHtmlRaw = `
           <a target="_blank" class="sub-btn" href="https://www.yunpian.com/product-voice-notification.html">
             语音通知
           </a>
-          <a target="_blank" class="sub-btn" rel="nofollow" href="https://www.yunpian.comhttps://simboss.com/www/?come_from=yunpian&utm_source=yp&utm_campaign=1&utm_medium=1" target="_blank">
+          <a target="_blank" class="sub-btn" rel="nofollow" href="https://simboss.com/www/?come_from=yunpian&utm_source=yp&utm_campaign=1&utm_medium=1" target="_blank">
             物联网卡
           </a>
         </div>
