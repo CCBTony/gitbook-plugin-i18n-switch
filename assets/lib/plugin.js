@@ -3,22 +3,22 @@ const navHtmlRaw = `
   <div class="container clearfix">
     <div class="logo"><a target="_blank" href="https://www.yunpian.com/"></a></div>
     <div class="reg-btn log-out" hidden>
-      <a target="_blank" rel="nofollow" class="btn" href="https://www.yunpian.com/entry?method=register">
+      <a target="_blank" rel="nofollow" class="btn" href="/entry?method=register">
         注册
       </a>
     </div>
     <div class="login-btn log-out" hidden>
-      <a target="_blank" rel="nofollow" class="btn" href="https://www.yunpian.com/entry">
+      <a target="_blank" rel="nofollow" class="btn" href="/entry">
         登录
       </a>
     </div>
     <div class="reg-btn log-in" hidden>
-      <a target="_blank" rel="nofollow" class="btn" href="https://www.yunpian.com/admin/exit">
+      <a target="_blank" rel="nofollow" class="btn" href="/admin/exit">
         退出
       </a>
     </div>
     <div class="login-btn log-in" hidden>
-      <a target="_blank" rel="nofollow" class="btn" href="https://www.yunpian.com/admin/main">
+      <a target="_blank" rel="nofollow" class="btn" href="/admin/main">
         进入后台
       </a>
     </div>
