@@ -385,6 +385,23 @@ const navJs = `
   </script>
 `
 
+const baiduStatistic = `
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+`
+
 const translate = {
   '首页': 'Home',
   '产品': 'Products',
@@ -420,6 +437,6 @@ module.exports = function (book, page) {
   } else {
     navHtml = navHtml.replace('lang-zh_CN', 'lang-zh_CN cur')
   }
-  page.content = page.content + navCss + navHtml + navJs;
+  page.content = page.content + navCss + navHtml + navJs + baiduStatistic;
   return page;
 }
