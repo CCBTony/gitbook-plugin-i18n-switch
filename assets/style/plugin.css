@@ -9,3 +9,8 @@ a.switch-i18n {
     max-width: none;
     margin: 0 100px;
 }
+ .line {
+    height: 1px;
+    background: #485B6E;
+    margin: 4px 8px;
+}
