@@ -49,11 +49,18 @@ const navHtmlRaw = `
           <a target="_blank" class="sub-btn" href="https://www.yunpian.com/product-voice.html">
             语音验证码
           </a>
-          <a target="_blank" class="sub-btn" href="https://www.yunpian.com/product-voice-notification.html">
-            语音通知
+          <a target="_blank" class="sub-btn" href="https://www.yunpian.com/product-video-sms.html">
+            视频短信
           </a>
-          <a target="_blank" class="sub-btn" rel="nofollow" href="https://simboss.com/www/?come_from=yunpian&utm_source=yp&utm_campaign=1&utm_medium=1" target="_blank">
-            物联网卡
+          <div class="line"></div>
+          <a target="_blank" class="sub-btn" href="https://www.yunpian.com/product-interprise-sms-platform.html">
+            企业级短信平台
+          </a>
+          <a target="_blank" class="sub-btn" href="https://www.yunpian.com/product-crm.html">
+            营销云
+          </a>
+          <a target="_blank" class="sub-btn" href="https://www.yunpian.com/product-captcha.html">
+            行为验证码
           </a>
         </div>
       </div>
@@ -65,20 +72,18 @@ const navHtmlRaw = `
           <div class="pointer-area">
             <div class="pointer"></div>
           </div>
-          <a target="_blank" class="sub-btn" href="https://www.yunpian.com/resolve/o2o.html">
-            O2O行业
+          <a target="_blank" class="sub-btn" href="https://www.yunpian.com/resolve/sv.html">
+            短信验证
           </a>
+          <a target="_blank" class="sub-btn" href="https://www.yunpian.com/resolve/ms.html">
+            营销场景
+          </a>
+          <div class="line"></div>
           <a target="_blank" class="sub-btn" href="https://www.yunpian.com/resolve/eb.html">
             电商行业
           </a>
           <a target="_blank" class="sub-btn" href="https://www.yunpian.com/resolve/fi.html">
             金融行业
-          </a>
-          <a target="_blank" class="sub-btn" href="https://www.yunpian.com/resolve/co.html">
-            企业服务
-          </a>
-          <a target="_blank" class="sub-btn" href="https://www.yunpian.com/resolve/cr.html">
-            创业者
           </a>
           <a target="_blank" class="sub-btn" href="https://www.yunpian.com/resolve/os.html">
             海外客户
