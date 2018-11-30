@@ -53,7 +53,7 @@ const navHtmlRaw = `
             视频短信
           </a>
           <div class="line"></div>
-          <a target="_blank" class="sub-btn" href="https://www.yunpian.com/product-interprise-sms-platform.html">
+          <a target="_blank" class="sub-btn" href="https://www.yunpian.com/product-enterprise-sms-platform.html">
             企业级短信平台
           </a>
           <a target="_blank" class="sub-btn" href="https://www.yunpian.com/product-crm.html">
