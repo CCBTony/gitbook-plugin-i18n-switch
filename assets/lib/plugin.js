@@ -431,7 +431,7 @@ const translate = {
   '企业级短信平台': 'SMS Platform for Business',
   '视频短信': 'Video SMS',
   '营销云': 'Marketing Cloud',
-  '行为式验证码': 'Yunpian\'s CAPTCHA',
+  '行为验证码': 'Yunpian\'s CAPTCHA',
   '短信验证': 'SMS Verification',
   '营销场景': 'Marketing'
 }
