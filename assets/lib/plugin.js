@@ -427,7 +427,13 @@ const translate = {
   '退出': 'Exit',
   '进入后台': 'Dashboard',
   '登录': 'Login',
-  '注册': 'Sign up'
+  '注册': 'Sign up',
+  '企业级短信平台': 'SMS Platform for Business',
+  '视频短信': 'Video SMS',
+  '营销云': 'Marketing Cloud',
+  '行为式验证码': 'Yunpian\'s CAPTCHA',
+  '短信验证': 'SMS Verification',
+  '营销场景': 'Marketing'
 }
 
 module.exports = function (book, page) {
